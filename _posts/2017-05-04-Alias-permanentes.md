@@ -20,6 +20,6 @@ alias actualizar = 'sudo apt update && sudo apt upgrade -y'
 alias limpiar = 'sudo apt autoclean && sudo apt autoremove -y'
 ```
 
-En el ejemplo anterior la primera línea comienza por # porque queremos que sea un comentario.
+En el ejemplo anterior la primera línea comienza por # porque queremos que sea un comentario. Por último, si lo que se quiere es que los alias además de permanentes, sean visibles a todos los usuarios del sistema, se ha de modificar el archivo **/etc/bash.bashrc**.
 
 De esta forma tan sencilla ya podemos definir todos los alias permanentens que queramos.

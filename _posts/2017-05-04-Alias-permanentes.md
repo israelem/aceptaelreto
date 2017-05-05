@@ -10,12 +10,12 @@ Para ayudar a mejorar la curva de aprendizaje o para aligerar la longitud de las
 Ejemplo:
     ``` bash
     alias actualizar =  'sudo apt update && sudo apt upgrade -y'
-    ````
+    ```
 
 Si escribimos la línea anterior en consola, a partir de ese momento al escribir actualizar, actualizará los repositorios y paquetes de nuestro sistema (basado en) [Debian](https://www.debian.org/) sin pedir confirmación. Sin embargo, una vez que volvemos a encender nuestro ordenador dicho alias ya no existe. De modo que ¿es necesario definir los alais cada vez que queramos usarlos? Afortunadamente no, ya que en ese caso no ganaríamos mucho con este comando. Si queremos hacerlo permanente hay que añadir el ejemplo anterior al final del archivo **~/.bashrc**. Hay que recordar que **~** indica nuestra carpeta personal.
 
     ``` bash
-    # Definiion de alias
+    \# Definiion de alias
     alias actualizar = 'sudo apt update && sudo apt upgrade -y'
     alias limpiar = 'sudo apt autoclean && sudo apt autoremove -y'
     ```

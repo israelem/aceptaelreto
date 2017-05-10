@@ -3,7 +3,7 @@ layout: post
 title: Comenzando con Python
 ---
 
-Aunque cada profesor, incluso, cada profesor tiene un lenguaje de programación
+Aunque cada profesor, incluso, tiene un lenguaje de programación
 preferido, no cabe duda de que hay lenguajes como **Java** que es el rey de los
 lenguajes de iniciación. Sin embargo, desde 2014 en las universidades
 estadounidenses el que ha tomado la delantera es **Python**, lo cual nos puede dar una idea de que en unos años será igualmente demandado en el mundo laboral, con el permiso de Java, por supuesto.

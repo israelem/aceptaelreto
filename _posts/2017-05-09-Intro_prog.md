@@ -55,7 +55,7 @@ Studio. Y si Google confía en ellos para su sistema operativo móvil, ¿por qu�
 no nosotros?
 
   Los motivos que me llevan a recomendar esta herramienta son varios, y es que
-  esta versión de Pycharm es libre, gratruita y de código abierto. Además, al
+  esta versión de Pycharm es libre, gratuita y de código abierto. Además, al
   ser la versión educativa nos proporciona cursos dentro del propio IDE, entre
   ellos destaca uno específico de introducción a Python. Además, permite crear
   más cursos siguiendo la misma estructura que los que vienen incluídos. Se

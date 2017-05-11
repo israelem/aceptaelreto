@@ -22,7 +22,7 @@ Las características de este lenguaje, entre otras son:
 Windows, Linux o MacOS.
 * **Multiparadigma**, ya que Python adopta los paradigmas de progrmación
 orientado a objetos (POO), programación imperativa y programación funcional.
-* **Lenguaje intepretado**, lo que nos permite programar scripts y ejecutar
+* **Lenguaje interpretado**, lo que nos permite programar scripts y ejecutar
 código **Python**, sin necesidad de complilarlo.
 * **Sintaxis simple**, cuando alguien conoce varios lenguajes de programación se
 agradece que la sitaxis y en general el formato del código sea sencillo y

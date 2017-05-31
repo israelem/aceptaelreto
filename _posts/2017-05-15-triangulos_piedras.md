@@ -48,4 +48,24 @@ Autores:	Pedro Pablo Gómez Martín; Patricia Díaz García; Marco Antonio Góme
 
 Revisores:	Ferran Borrell Micola; Cristina Gómez Alonso; Catalina Molano Alvarado; Roger Meix Mañá
 
+# Solución propuesta
+
+``` python
+def suma_n_numeros(n):
+    return (pow(n,2)+n)/2
+
+if __name__ == '__main__':
+    numero_piedras = int(input())
+    while(numero_piedras > 0):
+        i = 1;
+        while(suma_n_numeros(i)<numero_piedras):
+            i += 1
+        i -= 1
+        sobran = numero_piedras - suma_n_numeros(i)
+        print(str(i) + " " + str(int(sobran)))
+        numero_piedras = int(input())
+```
+
+Si nos fijamos en cuántas piedras hay en cada triángulo, el número de total de piedras es la suma de 1 + 2 + ... + n, siendo n el número de piedras de cada lado. De forma que para resolverlo, podemos utilizar la fórmula de Gauss: (n^2 + n) / 2, que es el resultado que devuelve la función suma_n_numeros.
+
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v001/70/st/statements/Spanish/index.html)

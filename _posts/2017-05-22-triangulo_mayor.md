@@ -40,4 +40,4 @@ salida se redondeará a un único decimal.
 
 Autores:	Pedro Pablo Gómez Martín; Marco Antonio Gómez Martín; Alberto Verdejo
 
-[Enlace original en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v003/50/st/statements/Spanish/index.html)
+[Enlace en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v003/50/st/statements/Spanish/index.html)

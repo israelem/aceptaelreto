@@ -1,4 +1,3 @@
-# Reto de piedras triangulares
 def suma_n_numeros(n):
     return (pow(n,2)+n)/2
 

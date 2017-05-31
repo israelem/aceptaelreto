@@ -69,3 +69,4 @@ if __name__ == '__main__':
 Si nos fijamos en cuántas piedras hay en cada triángulo, el número de total de piedras es la suma de 1 + 2 + ... + n, siendo n el número de piedras de cada lado. De forma que para resolverlo, podemos utilizar la fórmula de Gauss: (n^2 + n) / 2, que es el resultado que devuelve la función suma_n_numeros.
 
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v001/70/st/statements/Spanish/index.html)
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-05-15-triangulos_piedras.py)

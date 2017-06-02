@@ -68,6 +68,9 @@ while(a != 0 and b != 0):
 
 ```
 
+En la solución propuesta se supone que cada aumento del lado desconocido va a suponer un aumento del área del triángulo hasta alcanzar el área máxima, a partir de la cual el área resultante una vez aumetnado el lado será menor que el anterior.
 
+Además, para calcular el área del triángulo, dado que desconocemos la altura del triángulo, no podemos utilizar la más conocida A = (b\*h)/2. En este caso debemos usar la [fórmula de Herón](https://es.wikipedia.org/wiki/F%C3%B3rmula_de_Her%C3%B3n), que utiliza solo los tres lados para calcular el área.
 
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-05-22-triangulo_mayor.py)
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v003/50/st/statements/Spanish/index.html)

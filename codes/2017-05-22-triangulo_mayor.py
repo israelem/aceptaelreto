@@ -1,6 +1,5 @@
 import math
 
-
 def f_area(a, b, c):
     sol = 0
     s = (a + b + c)/2

@@ -14,13 +14,11 @@ De todos esos triángulos hay uno especial por ser el de mayor área. ¿Sabes en
 
 El programa deberá procesar múltiples casos de prueba, cada uno recibido en una línea por la entrada estándar.
 
-Un caso de prueba estará formado por una pareja de números naturales mayores que 0 y menores que 1.000, cada uno indicando la longitud de 
-uno de los segmentos. La entrada terminará con un caso de prueba especial, que no deberá procesarse, en el que ambos números serán 0.
+Un caso de prueba estará formado por una pareja de números naturales mayores que 0 y menores que 1.000, cada uno indicando la longitud de uno de los segmentos. La entrada terminará con un caso de prueba especial, que no deberá procesarse, en el que ambos números serán 0.
 
 # Salida
 
-Para cada caso de prueba el programa escribirá, en una línea, el área del mayor triángulo que se pueda formar con los dos segmentos. La 
-salida se redondeará a un único decimal.
+Para cada caso de prueba el programa escribirá, en una línea, el área del mayor triángulo que se pueda formar con los dos segmentos. La salida se redondeará a un único decimal.
 
 # Entrada de ejemplo
 
@@ -37,7 +35,39 @@ salida se redondeará a un único decimal.
 232.0
 ```
 
-
 Autores:	Pedro Pablo Gómez Martín; Marco Antonio Gómez Martín; Alberto Verdejo
+
+# Solución propuesta
+
+``` python
+import math
+
+def f_area(a, b, c):
+    sol = 0
+    s = (a + b + c)/2
+    r = s*(s - a)*(s - b)*(s - c)
+    if  r > 0:
+        sol = math.sqrt(r)
+    return sol
+
+a, b = str(input()).split(" ")
+a = int(a)
+b = int(b)
+while(a != 0 and b != 0):
+    c = 1
+    area = f_area(a, b, c)
+    max = 0
+    while (max == 0 or area > max):
+        c += 1
+        max = area
+        area = f_area(a, b, c)
+    print(round(area,1))
+    a, b = str(input()).split(" ")
+    a = int(a)
+    b = int(b)
+
+```
+
+
 
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/pub/problems/v003/50/st/statements/Spanish/index.html)

@@ -25,7 +25,7 @@ footer-links:
   instagram:
   linkedin: israelem
   pinterest:
-  rss: feed.xml
+  rss: aceptaelreto/feed.xml
   twitter: israelem
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
@@ -47,8 +47,8 @@ url: https://israelem.github.io/aceptaelreto
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-# baseurl: https://israelem.github.io
-baseurl: /aceptaelreto
+baseurl: https://israelem.github.io
+
 
 #
 # !! You don't need to change any of the configuration flags below !!

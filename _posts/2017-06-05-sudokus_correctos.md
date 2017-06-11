@@ -5,6 +5,8 @@ title: Sudokus corretos
 
 El sudoku es un pasatiempo lógico que consiste en rellenar una cuadrícula de 9×9 casillas dividida en nueve regiones 3×3 (las separadas con líneas más gruesas en la imagen) con los números del 1 al 9 de tal forma que no se repitan números en ninguna fila, columna o región. El sudoku inicialmente se presenta con algunas casillas ya rellenas, a modo de pistas, y el jugador debe deducir los valores de las casillas vacías. Si el sudoku está bien planteado, la solución es única.
 
+![Sudoku](https://www.aceptaelreto.com/pub/problems/v003/45/st/statements/images/sudoku.jpg)
+
 Dado un sudoku completamente relleno, ¿sabrías construir un programa que comprobara si es correcto (es decir, cada fila, columna o región contiene los números del 1 al 9 exactamente una vez)?
 
 # Entrada
@@ -67,7 +69,8 @@ if __name__ == '__main__':
             posicion_columna = 0
             for casilla in fila:
                 columnas[posicion_columna].append(casilla)
-                posicion_cuadrante = (posicion_fila // 3) * 3 + (posicion_columna // 3)
+                posicion_cuadrante = (posicion_fila // 3) * 3 +
+                  (posicion_columna // 3)
                 cuadrantes[posicion_cuadrante].append(casilla)
                 posicion_columna += 1
             posicion_fila += 1

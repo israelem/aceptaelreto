@@ -57,7 +57,7 @@ cadenas de caracteres, ya que en otros lenguajes deberíamos haber realizado la
 cadena inversa de recorriendo cada posición. Sin embargo, en Python tenemos la
 posibilidad de realizar esto con una sola instrucción, en este caso la siguiente:
 
-``` Python
+``` python
 s[i:j:k]
 ```
 
@@ -67,4 +67,5 @@ indicados, además, que el paso *k* es negativo, de forma que lo que devuelve es
 la cadena entera, pero justo del revés que es lo que nos interesa.
 
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-05-29-distancia_capicua.py)
+
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=348&potw=1)

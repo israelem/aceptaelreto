@@ -1,12 +1,9 @@
 # Comprobar sudoku leído desde teclado
 def f_leer_sudoku():
     r_sudoku = []
-    # f = open("sudoku.txt", "r")
     for iteracion in range(9):
-        # l_str = f.readline().split(' ')
         l_str = str(input()).split(' ')
         r_sudoku.append([int(x) for x in l_str])
-    # f.close()
     return r_sudoku
 
 

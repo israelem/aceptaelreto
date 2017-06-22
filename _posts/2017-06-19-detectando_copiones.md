@@ -81,5 +81,30 @@ if __name__ == '__main__':
     else:
         print("Los datos de entrada no cumplen las condiciones")
 ```
+
+Este problema, aunque relativamente sencillo, hay varios puntosa a acalarar.
+
++   A la hora de leer los datos se utiliza como en otras soluciones listas por comprensión,
+esto permite que en una sola línea devuelva los valores convertidos en variables numéricas.
+
++   A continuación se recorre la lista de exámenes, en este bucle relleno la variable
+repetidos, que es una lista con los distintos exámenes. Realmente, no estoy seguro de
+que el nombre sea del todo explicativo. En este bucle aprovecho para contar las
+copias que hay realmente de cada examen.
+
++   La función f_sublistas es necesaria ya que si leemos atentamente el enunciado, el profesor
+cuenta los exámenes haciendo precisamente sublistas de la lista total de exámenes, siendo estas
+sublistas de tamaño k tal y como nos indican en la entrada. Por ello, se recorre y haciendo
+uso del *slice* se van recuperando cada sublista.
+
++   Por último, la función f_repetidos_sublistas, solo hay que comprobar cuántos repetidos
+hay en cada sublista, de cada tipo de examen, por supuesto. En este caso llamamos a la función
+*count*, que nos permite contar las apariciones de un elemento en una lista. Aquí hay que tener
+en cuenta que para que los alumnos se copien, han de existir al menos dos exámenes iguales
+dentro del rango de lo que es capaz de recordar el profesor.
+
+Espero que os guste este problema que no es más que un ejercicio de manejo de listas.
+
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-06-19-detectando_copiones.py)
+
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=338&potw=1)

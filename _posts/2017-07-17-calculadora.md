@@ -130,8 +130,8 @@ conocimientos de la carrera y he intentado utilizar la técnica de *backtracking
 o vuelta atrás algo modificada. Si quieres aprender esta técnica y unas cuantas
 más precisamente el libro con el que estudié y que además mantiene su actualidad
 porque los fundamentos de algoritmia son los que son es [Técnicas de diseños de Algoritmos](http://www.lcc.uma.es/~av/Libro/)
-que se encuentra libre en el enlace, subido por uno de sus autores el profesor
-[Antonio Vallecillo](http://www.lcc.uma.es/~av/)
+que se encuentra libre en el enlace, subido por uno de sus autores, el profesor
+[Antonio Vallecillo](http://www.lcc.uma.es/~av/).
 
 Como siempre espero que os haya servido y toda mejora o sugerencia sobre el algoritmo
 será bienvenida.

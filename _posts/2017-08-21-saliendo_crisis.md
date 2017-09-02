@@ -37,8 +37,36 @@ NO
 # Solución propuesta
 
 ``` python
+if __name__ == '__main__':
+    respuestas = []
+    numero_muestras = int(input())
+    while numero_muestras != 0:
+        salida = True
+        indicadores = [int(x) for x in input().split(' ')]
+        anterior = indicadores[0]
+        posicion = 1
+        while posicion < len(indicadores) and anterior < indicadores[posicion]:
+            anterior = indicadores[posicion]
+            posicion += 1
+        if posicion == len(indicadores):
+            respuestas.append('SI')
+        else:
+            respuestas.append('NO')
+        numero_muestras = int(input())
+    for respuesta in respuestas:
+        print(respuesta)
 
 ```
+
+En este ejercicio, lo imporante es el uso de los bucles. Ya que lo único que debemos
+comprobar es que el valor dado es mayor estrictamente que el anterior. En este caso
+hacemos uso de un while donde vamos un paso por delante, ya que debemos comparar
+cada valor con el anterior, sin embargo, en la primera comparación. ¿Quién es el
+anterior? Pues ni más ni menos que el primero. A partir de ahí comparamos el
+anterior con el siguiente.
+
+El resto ya se puede dar por conocido. Si tenéis alguna duda, no  tenéis más que
+escribir en este blog.
 
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-08-21-saliendo_crisis.py)
 

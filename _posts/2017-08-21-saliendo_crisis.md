@@ -62,7 +62,9 @@ En este ejercicio, lo imporante es el uso de los bucles. Ya que lo único que de
 comprobar es que el valor dado es mayor estrictamente que el anterior. En este caso
 hacemos uso de un while donde vamos un paso por delante, ya que debemos comparar
 cada valor con el anterior, sin embargo, en la primera comparación. ¿Quién es el
-anterior? Pues ni más ni menos que el primero. A partir de ahí comparamos el
+anterior? Pues ni más ni menos que el primero, es decir, el que ocupa la posición 0, 
+de modo que el que hace la vez de siguiente es el segundo elemento de la lista, o 
+dicho de otra forma, el que ocupa la posición 1. A partir de ahí comparamos el
 anterior con el siguiente.
 
 El resto ya se puede dar por conocido. Si tenéis alguna duda, no  tenéis más que

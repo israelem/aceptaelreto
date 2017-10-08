@@ -39,10 +39,35 @@ Para cada caso de prueba se mostrará una línea en la que aparecerán dos enter
 # Solución propuesta
 
 ``` python
-
-
+if __name__ == '__main__':
+    soluciones = []
+    numero_casos = int(input())
+    for caso in range(numero_casos):
+        muros = int(input())
+        alturas = [int(x) for x in input().split(' ')]
+        arriba = 0
+        abajo = 0
+        for i in range(1, len(alturas)):
+            if alturas[i - 1] < alturas[i]:
+                arriba += 1
+            elif alturas[i - 1] > alturas[i]:
+                abajo += 1
+        soluciones.append("%d %d" % (arriba, abajo))
+    for solucion in soluciones:
+        print(solucion)
 ```
 
-[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-09-25-mediana.py)
+Este ejercicio para los que vivimos en los años 90 tiene un aire melancólico que
+no debe distraernos del objetivo principal que es realizar el algoritmo para
+resolver el problema que nos proponen. En este caso, y después de todos los que
+llevamos, es relativamente sencillo, ya que lo primero que hay que hacer es leer
+las distintas alturas de los muros. Después hay que recorrer el array y comparar
+valor con el siguiente o en nuestro caso, cada valor con el anterior.
+
+Si el anterior es menor que el siguiente el salto es hacia arriba y si es menor,
+es hacia abajo. Una vez contabilizados los saltos en uno u otro sentido solo hay
+que almacenarlos en el array (o lista) de soluciones.
+
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-10-02-saltos_mario.py)
 
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=161&potw=1)

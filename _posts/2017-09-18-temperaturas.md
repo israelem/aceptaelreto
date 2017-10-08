@@ -25,11 +25,11 @@ Para cada caso de prueba se escribirá el número de picos y de valles, separado
 4
 5
 7 5 3 8 9
-8 
+8
 8 9 7 6 5 3 4 2
-2 
+2
 3 -5
-8 
+8
 4 -1 5 3 7 7 6 8
 ```
 
@@ -44,9 +44,32 @@ Para cada caso de prueba se escribirá el número de picos y de valles, separado
 # Solución propuesta
 
 ``` python
-
-
+if __name__ == '__main__':
+    soluciones = []
+    numero_casos = int(input())
+    for caso in range(numero_casos):
+        casos = [int(x) for x in input().split(' ')]
+        temperaturas = [int(x) for x in input().split(' ')]
+        picos = 0
+        valles = 0
+        for i in range(1, len(temperaturas)-1):
+            if temperaturas[i - 1] < temperaturas[i] > temperaturas[i + 1]:
+                picos += 1
+            elif temperaturas[i - 1] > temperaturas[i] < temperaturas[i + 1]:
+                valles += 1
+        soluciones.append("%d %d" % (picos, valles))
+    for solucion in soluciones:
+        print(solucion)
 ```
+
+La complejidad de este problema es la de tener cuidado con los índices de un
+array o lista. Por eso el for va desde 1 a la longitud (tamaño) menos 1, ya que
+la función range realmente desde el valor inicial al final-1.
+
+Por cada elemento, hemos de compararlo con el de la izquierda y el de la derecha,
+y si cumple ser un pico, sumar 1 o si es un valle, sumar 1 a dicha variable.
+
+Otro ejercicio relativamente sencillo.
 
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-09-18-temperaturas.py)
 

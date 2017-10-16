@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Va de modas...
+title: Parentesis balanceados
 ---
 
 Se entiende que una secuencia de caracteres está correctamente equilibrada con respecto a los paréntesis si cada uno de los paréntesis de apertura tiene su paréntesis cerrado. Cuando añadimos otros mecanismos de agrupación (como los corchetes, [ y ] o las llaves, { y }), el equilibrio se da si el número de aperturas de cada símbolo coincide con el de cierres y además se cierran en el orden correcto.

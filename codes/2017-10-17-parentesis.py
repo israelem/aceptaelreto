@@ -5,13 +5,13 @@ if __name__ == '__main__':
     else:
         respuesta = "YES"
         i = 0
-        while i < len(cadena) and respuesta == "YES":
+        while 0 < len(cadena) and respuesta == "YES":
             if cadena[i] in "{[(":
                 i += 1
             else:
-                if cadena[i - 1] + cadena[i] in "{}" or \
-                        cadena[i - 1] + cadena[i] in "[]" or \
-                        cadena[i - 1] + cadena[i] in "()":
+                if cadena[i - 1] + cadena[i] in '{}' or \
+                        cadena[i - 1] + cadena[i] in '[]' or \
+                        cadena[i - 1] + cadena[i] in '()':
                     cadena = cadena[:i - 1] + cadena[i + 1:]
                     i -= 1
                 else:

@@ -17,6 +17,6 @@ if __name__ == '__main__':
         total = sum(par)
         previos = int(gauss(total))
         lista = pares(total)
-        respuestas. append(previos + lista.index(par) + 1 )
+        respuestas. append(previos + lista.index(par) + 1)
     for respuesta in respuestas:
         print(respuesta)

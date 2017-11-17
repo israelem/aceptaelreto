@@ -54,6 +54,19 @@ if __name__ == '__main__':
     print(respuesta)
 ```
 
+En este ejercicio la idea es muy sencilla, simplemente comprobar si los paréntesis,
+llaves y corchetes están correctamente balanceados. Para ello, al leer la cadena
+lo primero que debemos hacer es solo quedarnos con estos signos.
+Posteriormente, vamos recorriendo la misma mientras los signos sean de apertura
+y no de cierre.
+
+Una vez que encontremos el primero que cierre, hemos de comprobar que tenemos su
+pareja de apertura. En caso contrario, la respuesta es NO, de modo que resumiendo
+es que la cadena es correcta mientras no demostremos (o comprobemos) que sea
+incorrecta.
+
+¿Se os ocurre alguna forma más simple de realizar la comprobación?
+
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-10-16-parentesis.py)
 
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=141&potw=1)

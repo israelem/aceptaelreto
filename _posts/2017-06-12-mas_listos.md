@@ -50,4 +50,6 @@ Para cada caso se escribirá el tiempo mínimo que necesitan los dos ratones sit
 
 [^1]: En la elaboración de este problema ningún animal ha sufrido daños. Se ha tenido un escrupuloso cuidado en respetar los derechos de los animales y las leyes contra el maltrato animal.
 
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2017-06-12-mas_listos.py)
+
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=398&potw=1)

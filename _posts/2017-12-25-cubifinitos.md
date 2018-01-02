@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pirámide de fichas de dominó
+title: Números cubifinitos
 ---
 
 Se dice que un número es cubifinito cuando al elevar todos sus dígitos al cubo y sumarlos el resultado o bien es 1 o bien es un número cubifinito.

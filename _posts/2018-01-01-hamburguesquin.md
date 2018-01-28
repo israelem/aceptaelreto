@@ -11,7 +11,7 @@ Ahora te han contratado para que, con esa información, les digas cuántos resta
 
 # Entrada
 
-La entrada consiste en varios casos de prueba. La primera línea de cada caso contiene dos enteros: _L_ es la longitud de la calle (1 ≤ _L_ ≤ 10<sup>9</sup>) y _N_ es el número de restaurantes (0 ≤ _N_ ≤ 200.000). A continuación aparecen _N_ líneas, cada una con dos enteros: la posición _x<sub>i</sub>_ de un restaurante (0 ≤ _x<sub>i</sub>_ ≤ _L_) y su radio de influjo _r<sub>i</sub>_ (0 < _r<sub>i</sub>_ ≤ _L_).
+La entrada consiste en varios casos de prueba. La primera línea de cada caso contiene dos enteros: _L_ es la longitud de la calle (1 ≤ _L_ ≤ 10<sup>9</sup>) y _N_ es el número de restaurantes (0 ≤ _N_ ≤ 200.000). A continuación aparecen _N_ líneas, cada una con dos enteros: la posición _xi_ de un restaurante (0 ≤ _xi_ ≤ _L_) y su radio de influjo _ri_ (0 < _ri_ ≤ _L_).
 
 # Salida
 

@@ -43,6 +43,6 @@ Para cada caso de prueba se escribirá una línea con el máximo número de rest
 
 ```
 
-[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2018-01-01-Hamburguesquin.py)
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2018-01-01-hamburguesquin.py)
 
 [Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=421)

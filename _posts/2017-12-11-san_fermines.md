@@ -9,7 +9,7 @@ El problema consiste en, dadas las velocidades de todos los toros que participan
 
 # Entrada
 
-La entrada consta de una serie de casos de prueba, cada uno en una línea. El primer número de la misma indica el número de toros que intervienen en la carrera (n ≥ 1). A continuación aparece un entero por cada uno de los toros, indicando la velocidad a la que correrá ese toro (recuerda, es velocidad constante). La velocidad es siempre positiva y no excede 10<sup>9</sup>.
+La entrada consta de una serie de casos de prueba, cada uno en una línea. El primer número de la misma indica el número de toros que intervienen en la carrera (_n_ ≥ 1). A continuación aparece un entero por cada uno de los toros, indicando la velocidad a la que correrá ese toro (recuerda, es velocidad constante). La velocidad es siempre positiva y no excede 1.000.000.000.
 
 # Salida
 

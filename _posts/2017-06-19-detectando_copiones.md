@@ -14,11 +14,11 @@ Ahora, con tantos años encima, su memoria fotográfica se limita a sólo unos p
 
 La entrada contiene distintos casos de prueba, cada uno de ellos formado por dos líneas.
 
-En la primera línea aparecen dos números, N y K, que indican, respectivamente, el número de exámenes que tiene que corregir el viejo profesor y el número de exámenes que es capaz de recordar (1 ≤ N ≤ 1.000.000, 1 ≤ K ≤ 100.000). Tras eso, viene una línea con N números (entre 1 y 100.000) separados por espacios que representan las respuestas de cada uno de los exámenes. Dos exámenes se consideran copiados si están representados por el mismo número.
+En la primera línea aparecen dos números, _N_ y _K_, que indican, respectivamente, el número de exámenes que tiene que corregir el viejo profesor y el número de exámenes que es capaz de recordar (1 ≤ _N_ ≤ 1.000.000, 1 ≤ _K_ ≤ 100.000). Tras eso, viene una línea con _N_ números (entre 1 y 100.000) separados por espacios que representan las respuestas de cada uno de los exámenes. Dos exámenes se consideran copiados si están representados por el mismo número.
 
 # Salida
 
-Para cada caso de prueba se escribirá una línea con dos números separados por un espacio. El primero indicará el número de exámenes copiados mientras que el segundo dará la cantidad de copias detectadas por el profesor, sabiendo que, en el momento de corregir un examen, éste es capaz de recordar únicamente los K exámenes inmediatamente anteriores.
+Para cada caso de prueba se escribirá una línea con dos números separados por un espacio. El primero indicará el número de exámenes copiados mientras que el segundo dará la cantidad de copias detectadas por el profesor, sabiendo que, en el momento de corregir un examen, éste es capaz de recordar únicamente los _K_ exámenes inmediatamente anteriores.
 
 # Entrada de ejemplo
 

@@ -7,6 +7,6 @@ Bienvenidos a esta sección del blog, aunque si comprobáis mis repositorios, es
 
 La idea es muy buena y el que tenga un corrector automático es genial, sin embargo, tiene la limitación de que solo aceptan soluciones en C/C++ y Java. Ya que en mi blog principal el lenguaje que trato es Python, porque es el que decidí impartir en la asignatura de ISO, no podía aprovecharla. Pero se me ocurrió copiar el reto que planteaba semanalmente y ofrecer una solución en Python, con una pequeña explicación si es conveniente.
 
-Como todo objetivo que uno se marca, lo más importante es ser constante, de modo que espero que primero yo lo sea y segundo os sea últil a todo estudiante de cualquier nivel de Informática o simplemente interesado en temas de programación. Además de serme útil a mí por obligarme a desarrollar soluciones algorítmicas a los problemas que se plantean.
+Como todo objetivo que uno se marca, lo más importante es ser constante, de modo que espero que primero yo lo sea y segundo os sea útil a todo estudiante de cualquier nivel de Informática o simplemente interesado en temas de programación. Además de serme útil a mí por obligarme a desarrollar soluciones algorítmicas a los problemas que se plantean.
 
 Todos los comentarios y sugerencias serán bien recibidos.

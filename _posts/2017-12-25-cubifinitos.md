@@ -13,7 +13,7 @@ Dado un número, se trata de determinar si éste es o no cubifinito.
 
 # Entrada
 
-La entrada consta de una serie de casos de prueba terminados con un número 0. Cada caso de prueba es una línea con un número positivo no mayor que 10<sup>7</sup>.
+La entrada consta de una serie de casos de prueba terminados con un número 0. Cada caso de prueba es una línea con un número positivo no mayor que 10.000.000.
 
 # Salida
 

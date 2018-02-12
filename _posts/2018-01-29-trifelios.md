@@ -49,6 +49,6 @@ NO
 
 ```
 
-[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2018-01-15-fracciones.py)
+[Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2018-01-20-trifelios.py)
 
-[Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=226)
+[Enlace en aceptaelreto.com](https://www.aceptaelreto.com/problem/statement.php?id=401)

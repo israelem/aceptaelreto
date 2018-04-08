@@ -1,10 +1,42 @@
 import numpy as np
 from collections import Counter
 
+
+def iguales(diccionario_1, diccionario_2):
+    pass
+    return True
+
+
 def comprobar_barcos(oceano, cuenta_barcos):
     barcos_oceano = {}
     tamaño = 0
+    respuesta = False
     for fila in range(oceano.shape[0]):
+        for casilla in oceano[fila, :]:
+            if casilla == 0:
+                if tamaño > 1:
+                    if tamaño in barcos_oceano:
+                        barcos_oceano[tamaño] += 1
+                    else:
+                        barcos_oceano[tamaño] = 1
+                tamaño = 0
+            else:
+                tamaño += 1
+    for columna in range(oceano.shape[1]):
+        for casilla in oceano[:, columna]:
+            if casilla == 0:
+                if tamaño > 1:
+                    if tamaño in barcos_oceano:
+                        barcos_oceano[tamaño] += 1
+                    else:
+                        barcos_oceano[tamaño] = 1
+                tamaño = 0
+            else:
+                tamaño += 1
+
+    if iguales(barcos_oceano, cuenta_barcos) == 0:
+        respuesta = True
+    return respuesta
 
 
 if __name__ == '__main__':

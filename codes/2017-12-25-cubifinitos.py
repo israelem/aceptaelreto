@@ -12,6 +12,7 @@ def cubifinito(numero):
         respuesta += ' -> ' + str(suma) + ' -> no cubifinito.'
     return respuesta
 
+
 if __name__ == '__main__':
     respuestas = []
     numero = int(input())

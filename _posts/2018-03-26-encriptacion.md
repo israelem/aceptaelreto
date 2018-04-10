@@ -13,8 +13,6 @@ Nuestro cifrado Cesar no codifica los caracteres que no sean letras anglosajonas
 
 # Entrada
 
-
-
 La entrada está formada por un número indeterminado de casos de prueba.
 
 Cada caso de prueba consiste en una única línea cuyo primer carácter es el código de la letra 'p', seguido de un mensaje codificado con el método Cesar descrito antes utilizando el desplazamiento adecuado para que la letra 'p' se codifique con ese primer carácter.
@@ -49,7 +47,26 @@ qGJO
 # Solución propuesta
 
 ``` python
-
+if __name__ == '__main__':
+    fin = False
+    respuestas = []
+    while not fin:
+        mensaje = input()
+        desplazamiento = -(ord(mensaje[0]) - ord('p'))
+        vocales = 0
+        mensaje_decodificado = ''
+        for c in mensaje[1:]:
+            if ord('A') <= ord(c) <= ord('Z') or ord('a') <= ord(c) <= ord('z'):
+                caracter_decodificado = chr(ord(c) + desplazamiento)
+                if caracter_decodificado in 'aeiouAEIOU':
+                    vocales += 1
+            else:
+                caracter_decodificado = c
+            mensaje_decodificado += caracter_decodificado
+        fin = mensaje_decodificado == 'FIN'
+        respuestas.append(vocales)
+    for respuesta in respuestas[:len(respuestas)-1]:
+        print(respuesta)
 ```
 
 [Enlace del código](https://github.com/israelem/aceptaelreto/blob/master/codes/2018-03-26-encriptacion.py)

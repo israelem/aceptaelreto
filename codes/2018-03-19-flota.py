@@ -3,14 +3,12 @@ from collections import Counter
 
 
 def iguales(diccionario_1, diccionario_2):
-    pass
-    return True
+    return diccionario_1.__eq__(diccionario_2)
 
 
 def comprobar_barcos(oceano, cuenta_barcos):
     barcos_oceano = {}
     tamaño = 0
-    respuesta = False
     for fila in range(oceano.shape[0]):
         for casilla in oceano[fila, :]:
             if casilla == 0:
@@ -34,9 +32,7 @@ def comprobar_barcos(oceano, cuenta_barcos):
             else:
                 tamaño += 1
 
-    if iguales(barcos_oceano, cuenta_barcos) == 0:
-        respuesta = True
-    return respuesta
+    return iguales(barcos_oceano, cuenta_barcos)
 
 
 if __name__ == '__main__':

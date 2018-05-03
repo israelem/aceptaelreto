@@ -8,7 +8,7 @@ if __name__ == '__main__':
         intervalo = []
         maximo = (0, [])
         dia = 0
-        while dia < dias  and -10000 < registro[dia] < 10000:
+        while dia < dias and -10000 < registro[dia] < 10000:
             if registro[dia] > 0 and ganancias == 0:
                 intervalo.append(dia)
                 ganancias = registro[dia]
@@ -20,6 +20,7 @@ if __name__ == '__main__':
                                              intervalo[1] - intervalo[0] < maximo[1][1] - maximo[1][0]):
                     maximo = (ganancias, intervalo)
                 intervalo = []
+                ganancias = 0
             dia += 1
         if ganancias > 0 and not intervalo == []:
                 intervalo.append(dia - 1)
@@ -28,4 +29,4 @@ if __name__ == '__main__':
                     maximo = (ganancias, intervalo)
         respuestas.append(maximo[1])
         for respuesta in respuestas:
-            print(respuesta[0], respuesta[1])
+            print(respuesta[0]+1, respuesta[1]+1)

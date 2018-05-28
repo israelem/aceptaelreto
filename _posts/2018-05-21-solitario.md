@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Repartiendo el botín
+title: Solitario
 ---
 
  Maneras de jugar al solitario hay tantas como tipos de barajas y países donde se juega con ellas. Siendo muy pequeña, mi abuelo materno me enseñó a jugar a una variedad del solitario muy sencilla utilizando la baraja española. Como en la mayoría de los solitarios, el objetivo es crear cuatro pilas de cartas, una para cada palo, en orden ascendente, es decir del as al rey.

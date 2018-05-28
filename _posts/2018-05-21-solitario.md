@@ -3,7 +3,7 @@ layout: post
 title: Solitario
 ---
 
- Maneras de jugar al solitario hay tantas como tipos de barajas y países donde se juega con ellas. Siendo muy pequeña, mi abuelo materno me enseñó a jugar a una variedad del solitario muy sencilla utilizando la baraja española. Como en la mayoría de los solitarios, el objetivo es crear cuatro pilas de cartas, una para cada palo, en orden ascendente, es decir del as al rey.
+Maneras de jugar al solitario hay tantas como tipos de barajas y países donde se juega con ellas. Siendo muy pequeña, mi abuelo materno me enseñó a jugar a una variedad del solitario muy sencilla utilizando la baraja española. Como en la mayoría de los solitarios, el objetivo es crear cuatro pilas de cartas, una para cada palo, en orden ascendente, es decir del as al rey.
 
 En la modalidad de mi abuelo, se baraja el mazo de cartas y se coloca boca abajo sobre la mano. En cada jugada, se cogen simultáneamente dos cartas de ese mazo y se dan la vuelta sobre la mesa, formando una pila de cartas visibles. De esa pila, sólo podrá retirarse en cada momento la carta situada más arriba.
 
@@ -27,7 +27,6 @@ La entrada consta de una serie de casos de prueba terminados con un 0. Cada caso
 El caso de prueba comenzará por un número que indica el número de palos con el que jugamos el solitario. En la línea siguiente aparecerá la configuración del mazo de cartas inicial, ya barajado, como una secuencia de cartas. El mazo se considera colocado boca abajo, de manera que la primera carta que aparece será la primera que tengamos levantar.
 
 Cada carta se representa con un número y un carácter, que indican el valor de la carta y el palo al que pertenece respectivamente. Se utilizará O para los oros, C para las copas, E para las espadas y B para los bastos. Entre el número y el palo aparecerá un espacio, al igual que entre una carta y la siguiente.
-
 
 # Salida
 

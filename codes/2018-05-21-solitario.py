@@ -109,10 +109,10 @@ def colocar_cartas(mazos):
     }
 
     while not mazos['mesa'].vacio() \
-            and (mazos[palos[mazos['mesa'].última_carta().palo]].vacio()
+            and ((mazos[palos[mazos['mesa'].última_carta().palo]].vacio()
                  and mazos['mesa'].última_carta().valor == 1) \
             or (not mazos[palos[mazos['mesa'].última_carta().palo]].vacio() and
-                mazos['mesa'].última_carta().siguiente(mazos[palos[mazos['mesa'].última_carta().palo]].última_carta())):
+                mazos['mesa'].última_carta().siguiente(mazos[palos[mazos['mesa'].última_carta().palo]].última_carta()))):
         carta = mazos['mesa'].coger_última_carta()
         mazos[palos[carta.palo]].añadir_carta(carta)
 

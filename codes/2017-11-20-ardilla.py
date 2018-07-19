@@ -1,6 +1,7 @@
 import numpy as np
 from itertools import product
 
+
 class Punto:
     def __init__(self, x, y):
         self.x = x
@@ -11,18 +12,21 @@ class Punto:
 
 
 def hay_camino(mapa, salto, inicio=Punto(0, 0)):
-    if inicio.x == mapa.shape[0] and inicio.y == mapa.shape[1]:
-        return True
+    if inicio.x == mapa.shape[0] - 1 and inicio.y == mapa.shape[1] - 1:
+        solución = True
     else:
         lista_puntos = [Punto(x, y) for x, y in
-                        list(product(range(inicio.x, inicio.x + salto + 1), range(inicio.x, inicio.x + salto + 1)))]
+                        list(product(range(inicio.x, inicio.x + salto + 1),
+                                     range(inicio.x, inicio.x + salto + 1)))
+                        if x <= mapa.shape[0] - 1 and y <= mapa.shape[1] - 1][1:]
         posición = 0
         while posición < len(lista_puntos) and mapa[lista_puntos[posición].x, lista_puntos[posición].y] == '':
             posición += 1
         if posición == len(lista_puntos):
-            return False
+            solución = False
         else:
-            return hay_camino(mapa, salto, lista_puntos[posición])
+            solución = hay_camino(mapa, salto, lista_puntos[posición])
+    return solución
 
 
 if __name__ == '__main__':
@@ -43,8 +47,10 @@ if __name__ == '__main__':
             cortado = cortados[0]
             cortados = cortados[1:]
             mapa[cortado.x, cortado.y] = ''
-        if not cortado:
+        if not cortados or not cortado:
             soluciones.append('NUNCA SE PUDO')
         else:
             soluciones.append(cortado)
         filas, columnas, salto, árboles = [int(x) for x in input().split()]
+    for solución in soluciones:
+        print(solución)

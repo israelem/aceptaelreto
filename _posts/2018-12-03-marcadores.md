@@ -4,6 +4,7 @@ title: Marcadores de 7 segmentos
 ---
 
 Los paneles informativos están en todos los sitios. Cuando la tecnología se abarató, los carteles de papel se transformaron en letreros luminosos que muestran palabras que van apareciendo por un lado y saliendo por el otro, como el de la figura:
+
 ![Rótulo del metro en Asia](https://www.aceptaelreto.com/pub/problems/v001/29/st/statements/Spanish/images/RotuloMetro.jpg)
 
 Cuando uno de estos rótulos se pone en marcha, suele empezar vacío y el texto sale desde el lateral derecho hacia el izquierdo, desplazándose hasta desaparecer.
@@ -11,23 +12,26 @@ Cuando uno de estos rótulos se pone en marcha, suele empezar vacío y el texto 
 Su funcionamiento consiste en ir encendiendo y apagando las pequeñas bombillas (LEDs) para dar la sensación de movimiento.
 
 Si en vez de texto necesitamos únicamente mostrar números, el cartel puede ser mucho menos sofisticado utilizando los llamados marcadores de siete segmentos como el siguiente:
+
 ![Cartel de 7 segmentos](https://www.aceptaelreto.com/pub/problems/v001/29/st/statements/Spanish/images/Cartel7Segmentos.jpg)
 
 En este caso cada número se representa gracias a la combinación encendido/apagado de únicamente 7 segmentos luminosos que permiten representar todos los números:
-![Todos los números en 7 segmentos](https://www.aceptaelreto.com/pub/problems/v001/29/st/statements/Spanish/images/Cartel7Segmentos.jpg)
+
+![Todos los números en 7 segmentos](https://www.aceptaelreto.com/pub/problems/v001/29/st/statements/Spanish/images/TodosLosLeds.png)
 
 La pregunta que nos hacemos es ¿cuántos cambios de luces (cuántos encendidos y apagados) deberán hacerse para hacer pasar por uno de estos carteles un número determinado?
 
 Por ejemplo, para mostrar el 123 en un cartel de 3 dígitos que comienza con todos los leds apagados tendremos:
+
 ![Ejemplo de cambios al mostar '123' en un panel de 3 dígitos](https://www.aceptaelreto.com/pub/problems/v001/29/st/statements/Spanish/images/MarcadorLeds.png)
 
-    1. Inicialmente todos los segmentos están apagados.
-    2. Cuanto entra por la izquierda el 1, se encienden dos segmentos.
-    3. Al desplazarse el 1 y entrar el 2 se encienden seis segmentos y se apaga otro, lo que hacen un total de 7 cambios.
-    4. En el siguiente desplazamiento, al entrar el 3, se encienden siete segmentos y se apagan dos.
-    5. Al desaparecer el 1, el dígito de más a la derecha queda por completo apagado; hay cinco leds que se encienden y siete que se apagan.
-    6. La desaparición del 2 provoca otro dígito más apagado por completo y un led que se enciende y 6 que se apagan.
-    7. En el último paso se apagan cinco leds quedándose el marcador completo apagado.
+1. Inicialmente todos los segmentos están apagados.
+2. Cuanto entra por la izquierda el 1, se encienden dos segmentos.
+3. Al desplazarse el 1 y entrar el 2 se encienden seis segmentos y se apaga otro, lo que hacen un total de 7 cambios.
+4. En el siguiente desplazamiento, al entrar el 3, se encienden siete segmentos y se apagan dos.
+5. Al desaparecer el 1, el dígito de más a la derecha queda por completo apagado; hay cinco leds que se encienden y siete que se apagan.
+6. La desaparición del 2 provoca otro dígito más apagado por completo y un led que se enciende y 6 que se apagan.
+7. En el último paso se apagan cinco leds quedándose el marcador completo apagado.
 
 Eso hace un total de 42 cambios de luces. 
 
